@@ -3,16 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="bridgelabz.TestNG.TestNGFiles">
+      <class name="bridgelabz.TestNG.Annotations.SecondProgram">
         <methods>
-          <include name="support"/>
-          <include name="register"/>
-          <include name="goBackToHomepage"/>
-          <include name="terminateBrowser"/>
-          <include name="verifyHomepageTitle"/>
-          <include name="launchBrowser"/>
+          <include name="beforeClass"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
         </methods>
-      </class> <!-- bridgelabz.TestNG.TestNGFiles -->
+      </class> <!-- bridgelabz.TestNG.Annotations.SecondProgram -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
