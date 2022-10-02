@@ -5,7 +5,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-public class FirstProgram {
+public class SimpleAnnotationDemo {
 	
 	public String baseUrl = "http://demo.guru99.com/test/newtours/";
     public WebDriver driver; 

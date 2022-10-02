@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="bridgelabz.TestNG.Annotations.MultipleBrowser">
+      <class name="bridgelabz.TestNG.Annotations.Dependencies">
         <methods>
-          <include name="loginFFandCHROME"/>
+          <include name="QuitePage"/>
+          <include name="MobilePage"/>
+          <include name="LauchPage"/>
+          <include name="start"/>
         </methods>
-      </class> <!-- bridgelabz.TestNG.Annotations.MultipleBrowser -->
+      </class> <!-- bridgelabz.TestNG.Annotations.Dependencies -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
