@@ -2,7 +2,9 @@
 
 All program has been related to TestNG framework including Annotation, etc
 
-*Annotations* ::: Before suit, Before test, before class, before methods, Test, After methods, After Class, After Test, After suit
+---------------------------------------------------------------------------------------
+*Annotations ::: Before suit, Before test, before class, before methods, Test, After methods, After Class, After Test, After suit*
+---------------------------------------------------------------------------------------
 
 *Annotations with Parameters, Priorities, Invocation Time
 
