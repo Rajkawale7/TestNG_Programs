@@ -15,3 +15,9 @@ All program has been related to TestNG framework including Annotation, etc
 *Executing Multiple tests by using Batch TestNG Method
 
 *Executing Miltiple Tests by using Data Provider
+
+*Always Run = True(When TestNG skips execution of a test case for whatever reasons, and we wants to execute then we use this methods)
+
+*The use of Groups annotation which has been used to execute multiple test cases in groups by declaring with unique keyword.
+
+*TestNG Listeners: The use of listerns for executing some condition after every test operations.
