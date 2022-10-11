@@ -1,8 +1,6 @@
-package bridgelabz.TestNG.Annotations;
+package com.TestNG.DataProvider;
 
 import org.testng.annotations.Test;
-
-import com.TestNG.DataProvider.Multiple_DataRepository;
 
 public class Multiple_DataProvider_Test {
 	

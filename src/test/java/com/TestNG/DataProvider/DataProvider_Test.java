@@ -1,4 +1,4 @@
-package bridgelabz.TestNG.Annotations;
+package com.TestNG.DataProvider;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

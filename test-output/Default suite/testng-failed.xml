@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="bridgelabz.TestNG.Annotations.Dependencies">
+      <class name="com.TestNG.DataProvider.DataProviderWithExcel">
         <methods>
-          <include name="QuitePage"/>
-          <include name="MobilePage"/>
-          <include name="LauchPage"/>
-          <include name="start"/>
+          <include name="searchKeyword"/>
+          <include name="setup"/>
+          <include name="quiteBrowser"/>
         </methods>
-      </class> <!-- bridgelabz.TestNG.Annotations.Dependencies -->
+      </class> <!-- com.TestNG.DataProvider.DataProviderWithExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
